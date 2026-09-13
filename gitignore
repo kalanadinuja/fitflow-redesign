@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.local
+
+# Build output
+build/
+dist/
+.expo/
+
+# iOS / Android
+ios/Pods/
+*.xcworkspace
+.gradle/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
