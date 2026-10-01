@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.local
+.env*.local
+
+# Build output
+build/
+dist/
+web-build/
+.expo/
+expo-env.d.ts
+
+# iOS / Android
+ios/Pods/
+*.xcworkspace
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.gradle/
+.kotlin/
+
+# Metro / debug
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.pem
+
+# generated native folders (Expo CNG)
+/frontend/ios
+/frontend/android

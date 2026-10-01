@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "FitFlow",
+    "slug": "fitflow-redesign",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F6F8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sliit.fitflow"
+    },
+    "android": {
+      "package": "com.sliit.fitflow",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F766E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FitFlow uses photos to log meals in this prototype.",
+          "cameraPermission": "FitFlow uses the camera to log meals in this prototype."
+        }
+      ]
+    ]
+  }
+}
